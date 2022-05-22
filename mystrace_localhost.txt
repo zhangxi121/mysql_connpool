@@ -1,0 +1,470 @@
+execve("./mysql_test", ["./mysql_test", "2"], 0x7fff7e9b9c98 /* 36 vars */) = 0
+brk(NULL)                               = 0x235d000
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f55b3362000
+access("/etc/ld.so.preload", R_OK)      = -1 ENOENT (No such file or directory)
+open("/opt/rh/devtoolset-7/root/usr/lib64/tls/x86_64/libmariadb.so.3", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/opt/rh/devtoolset-7/root/usr/lib64/tls/x86_64", 0x7ffd0708e7d0) = -1 ENOENT (No such file or directory)
+open("/opt/rh/devtoolset-7/root/usr/lib64/tls/libmariadb.so.3", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/opt/rh/devtoolset-7/root/usr/lib64/tls", {st_mode=S_IFDIR|0555, st_size=6, ...}) = 0
+open("/opt/rh/devtoolset-7/root/usr/lib64/x86_64/libmariadb.so.3", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/opt/rh/devtoolset-7/root/usr/lib64/x86_64", 0x7ffd0708e7d0) = -1 ENOENT (No such file or directory)
+open("/opt/rh/devtoolset-7/root/usr/lib64/libmariadb.so.3", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/opt/rh/devtoolset-7/root/usr/lib64", {st_mode=S_IFDIR|0555, st_size=144, ...}) = 0
+open("/opt/rh/devtoolset-7/root/usr/lib/tls/x86_64/libmariadb.so.3", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/opt/rh/devtoolset-7/root/usr/lib/tls/x86_64", 0x7ffd0708e7d0) = -1 ENOENT (No such file or directory)
+open("/opt/rh/devtoolset-7/root/usr/lib/tls/libmariadb.so.3", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/opt/rh/devtoolset-7/root/usr/lib/tls", 0x7ffd0708e7d0) = -1 ENOENT (No such file or directory)
+open("/opt/rh/devtoolset-7/root/usr/lib/x86_64/libmariadb.so.3", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/opt/rh/devtoolset-7/root/usr/lib/x86_64", 0x7ffd0708e7d0) = -1 ENOENT (No such file or directory)
+open("/opt/rh/devtoolset-7/root/usr/lib/libmariadb.so.3", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/opt/rh/devtoolset-7/root/usr/lib", {st_mode=S_IFDIR|0555, st_size=17, ...}) = 0
+open("/opt/rh/devtoolset-7/root/usr/lib64/dyninst/tls/x86_64/libmariadb.so.3", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/opt/rh/devtoolset-7/root/usr/lib64/dyninst/tls/x86_64", 0x7ffd0708e7d0) = -1 ENOENT (No such file or directory)
+open("/opt/rh/devtoolset-7/root/usr/lib64/dyninst/tls/libmariadb.so.3", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/opt/rh/devtoolset-7/root/usr/lib64/dyninst/tls", 0x7ffd0708e7d0) = -1 ENOENT (No such file or directory)
+open("/opt/rh/devtoolset-7/root/usr/lib64/dyninst/x86_64/libmariadb.so.3", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/opt/rh/devtoolset-7/root/usr/lib64/dyninst/x86_64", 0x7ffd0708e7d0) = -1 ENOENT (No such file or directory)
+open("/opt/rh/devtoolset-7/root/usr/lib64/dyninst/libmariadb.so.3", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/opt/rh/devtoolset-7/root/usr/lib64/dyninst", 0x7ffd0708e7d0) = -1 ENOENT (No such file or directory)
+open("/opt/rh/devtoolset-7/root/usr/lib/dyninst/tls/x86_64/libmariadb.so.3", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/opt/rh/devtoolset-7/root/usr/lib/dyninst/tls/x86_64", 0x7ffd0708e7d0) = -1 ENOENT (No such file or directory)
+open("/opt/rh/devtoolset-7/root/usr/lib/dyninst/tls/libmariadb.so.3", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/opt/rh/devtoolset-7/root/usr/lib/dyninst/tls", 0x7ffd0708e7d0) = -1 ENOENT (No such file or directory)
+open("/opt/rh/devtoolset-7/root/usr/lib/dyninst/x86_64/libmariadb.so.3", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/opt/rh/devtoolset-7/root/usr/lib/dyninst/x86_64", 0x7ffd0708e7d0) = -1 ENOENT (No such file or directory)
+open("/opt/rh/devtoolset-7/root/usr/lib/dyninst/libmariadb.so.3", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/opt/rh/devtoolset-7/root/usr/lib/dyninst", 0x7ffd0708e7d0) = -1 ENOENT (No such file or directory)
+open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=48880, ...}) = 0
+mmap(NULL, 48880, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f55b3356000
+close(3)                                = 0
+open("/lib64/libmariadb.so.3", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0k\1\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=350864, ...}) = 0
+mmap(NULL, 2446624, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f55b2eec000
+mprotect(0x7f55b2f37000, 2093056, PROT_NONE) = 0
+mmap(0x7f55b3136000, 40960, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x4a000) = 0x7f55b3136000
+mmap(0x7f55b3140000, 5408, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f55b3140000
+close(3)                                = 0
+open("/opt/rh/devtoolset-7/root/usr/lib64/tls/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/opt/rh/devtoolset-7/root/usr/lib64/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/opt/rh/devtoolset-7/root/usr/lib/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/lib64/libpthread.so.0", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\200m\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=142144, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f55b3355000
+mmap(NULL, 2208904, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f55b2cd0000
+mprotect(0x7f55b2ce7000, 2093056, PROT_NONE) = 0
+mmap(0x7f55b2ee6000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x16000) = 0x7f55b2ee6000
+mmap(0x7f55b2ee8000, 13448, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f55b2ee8000
+close(3)                                = 0
+open("/opt/rh/devtoolset-7/root/usr/lib64/tls/libstdc++.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/opt/rh/devtoolset-7/root/usr/lib64/libstdc++.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/opt/rh/devtoolset-7/root/usr/lib/libstdc++.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/lib64/libstdc++.so.6", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\340\264\5\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=995840, ...}) = 0
+mmap(NULL, 3175456, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f55b29c8000
+mprotect(0x7f55b2ab1000, 2097152, PROT_NONE) = 0
+mmap(0x7f55b2cb1000, 40960, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xe9000) = 0x7f55b2cb1000
+mmap(0x7f55b2cbb000, 82976, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f55b2cbb000
+close(3)                                = 0
+open("/opt/rh/devtoolset-7/root/usr/lib64/tls/libm.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/opt/rh/devtoolset-7/root/usr/lib64/libm.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/opt/rh/devtoolset-7/root/usr/lib/libm.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/lib64/libm.so.6", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0PS\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=1136944, ...}) = 0
+mmap(NULL, 3150136, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f55b26c6000
+mprotect(0x7f55b27c7000, 2093056, PROT_NONE) = 0
+mmap(0x7f55b29c6000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x100000) = 0x7f55b29c6000
+close(3)                                = 0
+open("/opt/rh/devtoolset-7/root/usr/lib64/tls/libgcc_s.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/opt/rh/devtoolset-7/root/usr/lib64/libgcc_s.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/opt/rh/devtoolset-7/root/usr/lib/libgcc_s.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/lib64/libgcc_s.so.1", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\320*\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=88720, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f55b3354000
+mmap(NULL, 2184192, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f55b24b0000
+mprotect(0x7f55b24c5000, 2093056, PROT_NONE) = 0
+mmap(0x7f55b26c4000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x14000) = 0x7f55b26c4000
+close(3)                                = 0
+open("/opt/rh/devtoolset-7/root/usr/lib64/tls/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/opt/rh/devtoolset-7/root/usr/lib64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/opt/rh/devtoolset-7/root/usr/lib/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/lib64/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0`&\2\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=2156352, ...}) = 0
+mmap(NULL, 3985920, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f55b20e2000
+mprotect(0x7f55b22a6000, 2093056, PROT_NONE) = 0
+mmap(0x7f55b24a5000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1c3000) = 0x7f55b24a5000
+mmap(0x7f55b24ab000, 16896, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f55b24ab000
+close(3)                                = 0
+open("/opt/rh/devtoolset-7/root/usr/lib64/tls/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/opt/rh/devtoolset-7/root/usr/lib64/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/opt/rh/devtoolset-7/root/usr/lib/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/lib64/libdl.so.2", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P\16\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=19248, ...}) = 0
+mmap(NULL, 2109744, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f55b1ede000
+mprotect(0x7f55b1ee0000, 2097152, PROT_NONE) = 0
+mmap(0x7f55b20e0000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x7f55b20e0000
+close(3)                                = 0
+open("/opt/rh/devtoolset-7/root/usr/lib64/tls/libssl.so.10", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/opt/rh/devtoolset-7/root/usr/lib64/libssl.so.10", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/opt/rh/devtoolset-7/root/usr/lib/libssl.so.10", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/lib64/libssl.so.10", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\220\253\1\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=470376, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f55b3353000
+mmap(NULL, 2560784, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f55b1c6c000
+mprotect(0x7f55b1cd3000, 2097152, PROT_NONE) = 0
+mmap(0x7f55b1ed3000, 45056, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x67000) = 0x7f55b1ed3000
+close(3)                                = 0
+open("/opt/rh/devtoolset-7/root/usr/lib64/tls/libcrypto.so.10", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/opt/rh/devtoolset-7/root/usr/lib64/libcrypto.so.10", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/opt/rh/devtoolset-7/root/usr/lib/libcrypto.so.10", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/lib64/libcrypto.so.10", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\322\6\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=2520768, ...}) = 0
+mmap(NULL, 4596584, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f55b1809000
+mprotect(0x7f55b1a3f000, 2097152, PROT_NONE) = 0
+mmap(0x7f55b1c3f000, 167936, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x236000) = 0x7f55b1c3f000
+mmap(0x7f55b1c68000, 13160, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f55b1c68000
+close(3)                                = 0
+open("/opt/rh/devtoolset-7/root/usr/lib64/tls/libz.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/opt/rh/devtoolset-7/root/usr/lib64/libz.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/opt/rh/devtoolset-7/root/usr/lib/libz.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/lib64/libz.so.1", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P!\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=90176, ...}) = 0
+mmap(NULL, 2183272, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f55b15f3000
+mprotect(0x7f55b1608000, 2093056, PROT_NONE) = 0
+mmap(0x7f55b1807000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x14000) = 0x7f55b1807000
+close(3)                                = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f55b3352000
+open("/opt/rh/devtoolset-7/root/usr/lib64/tls/libgssapi_krb5.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/opt/rh/devtoolset-7/root/usr/lib64/libgssapi_krb5.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/opt/rh/devtoolset-7/root/usr/lib/libgssapi_krb5.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/lib64/libgssapi_krb5.so.2", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0 \307\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=320720, ...}) = 0
+mmap(NULL, 2410688, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f55b13a6000
+mprotect(0x7f55b13f0000, 2097152, PROT_NONE) = 0
+mmap(0x7f55b15f0000, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x4a000) = 0x7f55b15f0000
+close(3)                                = 0
+open("/opt/rh/devtoolset-7/root/usr/lib64/tls/libkrb5.so.3", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/opt/rh/devtoolset-7/root/usr/lib64/libkrb5.so.3", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/opt/rh/devtoolset-7/root/usr/lib/libkrb5.so.3", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/lib64/libkrb5.so.3", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0 \\\2\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=967840, ...}) = 0
+mmap(NULL, 3050080, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f55b10bd000
+mprotect(0x7f55b1196000, 2093056, PROT_NONE) = 0
+mmap(0x7f55b1395000, 69632, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xd8000) = 0x7f55b1395000
+close(3)                                = 0
+open("/opt/rh/devtoolset-7/root/usr/lib64/tls/libcom_err.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/opt/rh/devtoolset-7/root/usr/lib64/libcom_err.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/opt/rh/devtoolset-7/root/usr/lib/libcom_err.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/lib64/libcom_err.so.2", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0@\25\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=15856, ...}) = 0
+mmap(NULL, 2109928, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f55b0eb9000
+mprotect(0x7f55b0ebc000, 2093056, PROT_NONE) = 0
+mmap(0x7f55b10bb000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x7f55b10bb000
+close(3)                                = 0
+open("/opt/rh/devtoolset-7/root/usr/lib64/tls/libk5crypto.so.3", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/opt/rh/devtoolset-7/root/usr/lib64/libk5crypto.so.3", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/opt/rh/devtoolset-7/root/usr/lib/libk5crypto.so.3", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/lib64/libk5crypto.so.3", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\320H\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=210784, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f55b3351000
+mmap(NULL, 2302680, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f55b0c86000
+mprotect(0x7f55b0cb7000, 2093056, PROT_NONE) = 0
+mmap(0x7f55b0eb6000, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x30000) = 0x7f55b0eb6000
+close(3)                                = 0
+open("/opt/rh/devtoolset-7/root/usr/lib64/tls/libkrb5support.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/opt/rh/devtoolset-7/root/usr/lib64/libkrb5support.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/opt/rh/devtoolset-7/root/usr/lib/libkrb5support.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/lib64/libkrb5support.so.0", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\360;\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=67104, ...}) = 0
+mmap(NULL, 2160296, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f55b0a76000
+mprotect(0x7f55b0a84000, 2097152, PROT_NONE) = 0
+mmap(0x7f55b0c84000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xe000) = 0x7f55b0c84000
+close(3)                                = 0
+open("/opt/rh/devtoolset-7/root/usr/lib64/tls/libkeyutils.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/opt/rh/devtoolset-7/root/usr/lib64/libkeyutils.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/opt/rh/devtoolset-7/root/usr/lib/libkeyutils.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/lib64/libkeyutils.so.1", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\260\25\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=15688, ...}) = 0
+mmap(NULL, 2109720, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f55b0872000
+mprotect(0x7f55b0875000, 2093056, PROT_NONE) = 0
+mmap(0x7f55b0a74000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x7f55b0a74000
+close(3)                                = 0
+open("/opt/rh/devtoolset-7/root/usr/lib64/tls/libresolv.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/opt/rh/devtoolset-7/root/usr/lib64/libresolv.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/opt/rh/devtoolset-7/root/usr/lib/libresolv.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/lib64/libresolv.so.2", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\2009\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=109976, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f55b3350000
+mmap(NULL, 2202112, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f55b0658000
+mprotect(0x7f55b066e000, 2097152, PROT_NONE) = 0
+mmap(0x7f55b086e000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x16000) = 0x7f55b086e000
+mmap(0x7f55b0870000, 6656, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f55b0870000
+close(3)                                = 0
+open("/opt/rh/devtoolset-7/root/usr/lib64/tls/libselinux.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/opt/rh/devtoolset-7/root/usr/lib64/libselinux.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/opt/rh/devtoolset-7/root/usr/lib/libselinux.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/lib64/libselinux.so.1", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\220j\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=155744, ...}) = 0
+mmap(NULL, 2255216, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f55b0431000
+mprotect(0x7f55b0455000, 2093056, PROT_NONE) = 0
+mmap(0x7f55b0654000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x23000) = 0x7f55b0654000
+mmap(0x7f55b0656000, 6512, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f55b0656000
+close(3)                                = 0
+open("/opt/rh/devtoolset-7/root/usr/lib64/tls/libpcre.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/opt/rh/devtoolset-7/root/usr/lib64/libpcre.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/opt/rh/devtoolset-7/root/usr/lib/libpcre.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/lib64/libpcre.so.1", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\360\25\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=402384, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f55b334f000
+mmap(NULL, 2494984, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f55b01cf000
+mprotect(0x7f55b022f000, 2097152, PROT_NONE) = 0
+mmap(0x7f55b042f000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x60000) = 0x7f55b042f000
+close(3)                                = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f55b334e000
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f55b334d000
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f55b334b000
+arch_prctl(ARCH_SET_FS, 0x7f55b334b880) = 0
+mprotect(0x7f55b24a5000, 16384, PROT_READ) = 0
+mprotect(0x7f55b2ee6000, 4096, PROT_READ) = 0
+mprotect(0x7f55b042f000, 4096, PROT_READ) = 0
+mprotect(0x7f55b20e0000, 4096, PROT_READ) = 0
+mprotect(0x7f55b0654000, 4096, PROT_READ) = 0
+mprotect(0x7f55b086e000, 4096, PROT_READ) = 0
+mprotect(0x7f55b0a74000, 4096, PROT_READ) = 0
+mprotect(0x7f55b0c84000, 4096, PROT_READ) = 0
+mprotect(0x7f55b0eb6000, 8192, PROT_READ) = 0
+mprotect(0x7f55b10bb000, 4096, PROT_READ) = 0
+mprotect(0x7f55b1395000, 57344, PROT_READ) = 0
+mprotect(0x7f55b15f0000, 4096, PROT_READ) = 0
+mprotect(0x7f55b1807000, 4096, PROT_READ) = 0
+mprotect(0x7f55b1c3f000, 114688, PROT_READ) = 0
+mprotect(0x7f55b1ed3000, 16384, PROT_READ) = 0
+mprotect(0x7f55b26c4000, 4096, PROT_READ) = 0
+mprotect(0x7f55b29c6000, 4096, PROT_READ) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f55b334a000
+mprotect(0x7f55b2cb1000, 32768, PROT_READ) = 0
+stat("/etc/sysconfig/64bit_strstr_via_64bit_strstr_sse2_unaligned", 0x7ffd0708ed60) = -1 ENOENT (No such file or directory)
+mprotect(0x7f55b3136000, 32768, PROT_READ) = 0
+mprotect(0x609000, 4096, PROT_READ)     = 0
+mprotect(0x7f55b3363000, 4096, PROT_READ) = 0
+munmap(0x7f55b3356000, 48880)           = 0
+set_tid_address(0x7f55b334bb50)         = 21813
+set_robust_list(0x7f55b334bb60, 24)     = 0
+rt_sigaction(SIGRTMIN, {sa_handler=0x7f55b2cd6860, sa_mask=[], sa_flags=SA_RESTORER|SA_SIGINFO, sa_restorer=0x7f55b2cdf630}, NULL, 8) = 0
+rt_sigaction(SIGRT_1, {sa_handler=0x7f55b2cd68f0, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART|SA_SIGINFO, sa_restorer=0x7f55b2cdf630}, NULL, 8) = 0
+rt_sigprocmask(SIG_UNBLOCK, [RTMIN RT_1], NULL, 8) = 0
+getrlimit(RLIMIT_STACK, {rlim_cur=8192*1024, rlim_max=RLIM64_INFINITY}) = 0
+statfs("/sys/fs/selinux", 0x7ffd0708ffc0) = -1 ENOENT (No such file or directory)
+statfs("/selinux", 0x7ffd0708ffc0)      = -1 ENOENT (No such file or directory)
+brk(NULL)                               = 0x235d000
+brk(0x237e000)                          = 0x237e000
+open("/proc/filesystems", O_RDONLY)     = 3
+fstat(3, {st_mode=S_IFREG|0444, st_size=0, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f55b3361000
+read(3, "nodev\tsysfs\nnodev\trootfs\nnodev\tr"..., 1024) = 346
+stat("/etc/sysconfig/64bit_strstr_via_64bit_strstr_sse2_unaligned", 0x7ffd0708fb70) = -1 ENOENT (No such file or directory)
+read(3, "", 1024)                       = 0
+close(3)                                = 0
+munmap(0x7f55b3361000, 4096)            = 0
+access("/etc/selinux/config", F_OK)     = 0
+open("/etc/pki/tls/legacy-settings", O_RDONLY) = -1 ENOENT (No such file or directory)
+access("/etc/system-fips", F_OK)        = -1 ENOENT (No such file or directory)
+futex(0x7f55b2ccd96c, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+futex(0x7f55b2ccd978, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+open("/home/coder/MyWorkSpace/ConnPool/my_common_connection_pool/mysqlConfig.ini", O_RDONLY) = 3
+fstat(3, {st_mode=S_IFREG|0664, st_size=250, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f55b3361000
+read(3, "#\346\225\260\346\215\256\345\272\223\350\277\236\346\216\245\346\261\240\347\232\204\351\205\215\347\275\256\346\226\207\344"..., 4096) = 250
+read(3, "", 4096)                       = 0
+socket(AF_UNIX, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0) = 4
+connect(4, {sa_family=AF_UNIX, sun_path="/var/run/nscd/socket"}, 110) = -1 ENOENT (No such file or directory)
+close(4)                                = 0
+socket(AF_UNIX, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0) = 4
+connect(4, {sa_family=AF_UNIX, sun_path="/var/run/nscd/socket"}, 110) = -1 ENOENT (No such file or directory)
+close(4)                                = 0
+open("/etc/nsswitch.conf", O_RDONLY|O_CLOEXEC) = 4
+fstat(4, {st_mode=S_IFREG|0644, st_size=1746, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f55b3360000
+read(4, "#\n# /etc/nsswitch.conf\n#\n# An ex"..., 4096) = 1746
+read(4, "", 4096)                       = 0
+close(4)                                = 0
+munmap(0x7f55b3360000, 4096)            = 0
+open("/opt/rh/devtoolset-7/root/usr/lib64/tls/libnss_files.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/opt/rh/devtoolset-7/root/usr/lib64/libnss_files.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/opt/rh/devtoolset-7/root/usr/lib/libnss_files.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 4
+fstat(4, {st_mode=S_IFREG|0644, st_size=48880, ...}) = 0
+mmap(NULL, 48880, PROT_READ, MAP_PRIVATE, 4, 0) = 0x7f55b333e000
+close(4)                                = 0
+open("/lib64/libnss_files.so.2", O_RDONLY|O_CLOEXEC) = 4
+read(4, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\260!\0\0\0\0\0\0"..., 832) = 832
+fstat(4, {st_mode=S_IFREG|0755, st_size=61560, ...}) = 0
+mmap(NULL, 2173048, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f55affbc000
+mprotect(0x7f55affc8000, 2093056, PROT_NONE) = 0
+mmap(0x7f55b01c7000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 0xb000) = 0x7f55b01c7000
+mmap(0x7f55b01c9000, 22648, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f55b01c9000
+close(4)                                = 0
+mprotect(0x7f55b01c7000, 4096, PROT_READ) = 0
+munmap(0x7f55b333e000, 48880)           = 0
+open("/etc/services", O_RDONLY|O_CLOEXEC) = 4
+fstat(4, {st_mode=S_IFREG|0644, st_size=670293, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f55b3360000
+read(4, "# /etc/services:\n# $Id: services"..., 4096) = 4096
+read(4, " 74/udp                         "..., 4096) = 4096
+read(4, "     # Quick Mail Transfer Proto"..., 4096) = 4096
+read(4, "    636/udp                     "..., 4096) = 4096
+read(4, "          # Microsoft-SQL-Monito"..., 4096) = 4096
+read(4, "                       # discp s"..., 4096) = 4096
+close(4)                                = 0
+munmap(0x7f55b3360000, 4096)            = 0
+open("/etc/pki/tls/openssl.cnf", O_RDONLY) = 4
+fstat(4, {st_mode=S_IFREG|0644, st_size=10923, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f55b3360000
+read(4, "#\n# OpenSSL example configuratio"..., 4096) = 4096
+read(4, "ancient versions of Netscape cra"..., 4096) = 4096
+read(4, "gainst PKIX guidelines but some "..., 4096) = 2731
+read(4, "", 4096)                       = 0
+close(4)                                = 0
+munmap(0x7f55b3360000, 4096)            = 0
+brk(NULL)                               = 0x237e000
+brk(0x239f000)                          = 0x239f000
+rt_sigaction(SIGPIPE, {sa_handler=SIG_IGN, sa_mask=[PIPE], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x7f55b2118400}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+futex(0x7f55b313f954, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+socket(AF_UNIX, SOCK_STREAM, 0)         = 4
+fcntl(4, F_SETFL, O_RDONLY|O_NONBLOCK)  = 0
+connect(4, {sa_family=AF_UNIX, sun_path="/var/lib/mysql/mysql.sock"}, 110) = 0
+fcntl(4, F_SETFL, O_RDONLY)             = 0
+setsockopt(4, SOL_IP, IP_TOS, [8], 4)   = -1 EOPNOTSUPP (Operation not supported)
+setsockopt(4, SOL_SOCKET, SO_KEEPALIVE, [1], 4) = 0
+recvfrom(4, "Y\0\0\0\n5.5.5-10.4.21-MariaDB\0\25\0\0\0q"..., 16384, MSG_DONTWAIT, NULL, NULL) = 93
+sendto(4, "\302\0\0\1\214\242\276\0\0\0\0@\10\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 198, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 198
+recvfrom(4, "\20\0\0\2\0\0\0\2@\0\0\0\7\1\5\4chat", 16384, MSG_DONTWAIT, NULL, NULL) = 20
+setsockopt(4, SOL_SOCKET, SO_RCVTIMEO, "\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 16) = 0
+setsockopt(4, SOL_SOCKET, SO_SNDTIMEO, "\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 16) = 0
+socket(AF_UNIX, SOCK_STREAM, 0)         = 5
+fcntl(5, F_SETFL, O_RDONLY|O_NONBLOCK)  = 0
+connect(5, {sa_family=AF_UNIX, sun_path="/var/lib/mysql/mysql.sock"}, 110) = 0
+fcntl(5, F_SETFL, O_RDONLY)             = 0
+setsockopt(5, SOL_IP, IP_TOS, [8], 4)   = -1 EOPNOTSUPP (Operation not supported)
+setsockopt(5, SOL_SOCKET, SO_KEEPALIVE, [1], 4) = 0
+recvfrom(5, "Y\0\0\0\n5.5.5-10.4.21-MariaDB\0\26\0\0\0$"..., 16384, MSG_DONTWAIT, NULL, NULL) = 93
+sendto(5, "\302\0\0\1\214\242\276\0\0\0\0@\10\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 198, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 198
+recvfrom(5, "\20\0\0\2\0\0\0\2@\0\0\0\7\1\5\4chat", 16384, MSG_DONTWAIT, NULL, NULL) = 20
+setsockopt(5, SOL_SOCKET, SO_RCVTIMEO, "\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 16) = 0
+setsockopt(5, SOL_SOCKET, SO_SNDTIMEO, "\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 16) = 0
+socket(AF_UNIX, SOCK_STREAM, 0)         = 6
+fcntl(6, F_SETFL, O_RDONLY|O_NONBLOCK)  = 0
+connect(6, {sa_family=AF_UNIX, sun_path="/var/lib/mysql/mysql.sock"}, 110) = 0
+fcntl(6, F_SETFL, O_RDONLY)             = 0
+setsockopt(6, SOL_IP, IP_TOS, [8], 4)   = -1 EOPNOTSUPP (Operation not supported)
+setsockopt(6, SOL_SOCKET, SO_KEEPALIVE, [1], 4) = 0
+recvfrom(6, "Y\0\0\0\n5.5.5-10.4.21-MariaDB\0\27\0\0\0G"..., 16384, MSG_DONTWAIT, NULL, NULL) = 93
+sendto(6, "\302\0\0\1\214\242\276\0\0\0\0@\10\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 198, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 198
+recvfrom(6, "\20\0\0\2\0\0\0\2@\0\0\0\7\1\5\4chat", 16384, MSG_DONTWAIT, NULL, NULL) = 20
+setsockopt(6, SOL_SOCKET, SO_RCVTIMEO, "\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 16) = 0
+setsockopt(6, SOL_SOCKET, SO_SNDTIMEO, "\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 16) = 0
+brk(NULL)                               = 0x239f000
+brk(0x23c0000)                          = 0x23c0000
+socket(AF_UNIX, SOCK_STREAM, 0)         = 7
+fcntl(7, F_SETFL, O_RDONLY|O_NONBLOCK)  = 0
+connect(7, {sa_family=AF_UNIX, sun_path="/var/lib/mysql/mysql.sock"}, 110) = 0
+fcntl(7, F_SETFL, O_RDONLY)             = 0
+setsockopt(7, SOL_IP, IP_TOS, [8], 4)   = -1 EOPNOTSUPP (Operation not supported)
+setsockopt(7, SOL_SOCKET, SO_KEEPALIVE, [1], 4) = 0
+recvfrom(7, "Y\0\0\0\n5.5.5-10.4.21-MariaDB\0\30\0\0\0@"..., 16384, MSG_DONTWAIT, NULL, NULL) = 93
+sendto(7, "\302\0\0\1\214\242\276\0\0\0\0@\10\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 198, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 198
+recvfrom(7, "\20\0\0\2\0\0\0\2@\0\0\0\7\1\5\4chat", 16384, MSG_DONTWAIT, NULL, NULL) = 20
+setsockopt(7, SOL_SOCKET, SO_RCVTIMEO, "\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 16) = 0
+setsockopt(7, SOL_SOCKET, SO_SNDTIMEO, "\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 16) = 0
+socket(AF_UNIX, SOCK_STREAM, 0)         = 8
+fcntl(8, F_SETFL, O_RDONLY|O_NONBLOCK)  = 0
+connect(8, {sa_family=AF_UNIX, sun_path="/var/lib/mysql/mysql.sock"}, 110) = 0
+fcntl(8, F_SETFL, O_RDONLY)             = 0
+setsockopt(8, SOL_IP, IP_TOS, [8], 4)   = -1 EOPNOTSUPP (Operation not supported)
+setsockopt(8, SOL_SOCKET, SO_KEEPALIVE, [1], 4) = 0
+recvfrom(8, "Y\0\0\0\n5.5.5-10.4.21-MariaDB\0\31\0\0\0@"..., 16384, MSG_DONTWAIT, NULL, NULL) = 93
+sendto(8, "\302\0\0\1\214\242\276\0\0\0\0@\10\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 198, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 198
+recvfrom(8, "\20\0\0\2\0\0\0\2@\0\0\0\7\1\5\4chat", 16384, MSG_DONTWAIT, NULL, NULL) = 20
+setsockopt(8, SOL_SOCKET, SO_RCVTIMEO, "\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 16) = 0
+setsockopt(8, SOL_SOCKET, SO_SNDTIMEO, "\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 16) = 0
+socket(AF_UNIX, SOCK_STREAM, 0)         = 9
+fcntl(9, F_SETFL, O_RDONLY|O_NONBLOCK)  = 0
+connect(9, {sa_family=AF_UNIX, sun_path="/var/lib/mysql/mysql.sock"}, 110) = 0
+fcntl(9, F_SETFL, O_RDONLY)             = 0
+setsockopt(9, SOL_IP, IP_TOS, [8], 4)   = -1 EOPNOTSUPP (Operation not supported)
+setsockopt(9, SOL_SOCKET, SO_KEEPALIVE, [1], 4) = 0
+recvfrom(9, "Y\0\0\0\n5.5.5-10.4.21-MariaDB\0\32\0\0\0/"..., 16384, MSG_DONTWAIT, NULL, NULL) = 93
+sendto(9, "\302\0\0\1\214\242\276\0\0\0\0@\10\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 198, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 198
+recvfrom(9, "\20\0\0\2\0\0\0\2@\0\0\0\7\1\5\4chat", 16384, MSG_DONTWAIT, NULL, NULL) = 20
+setsockopt(9, SOL_SOCKET, SO_RCVTIMEO, "\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 16) = 0
+setsockopt(9, SOL_SOCKET, SO_SNDTIMEO, "\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 16) = 0
+socket(AF_UNIX, SOCK_STREAM, 0)         = 10
+fcntl(10, F_SETFL, O_RDONLY|O_NONBLOCK) = 0
+connect(10, {sa_family=AF_UNIX, sun_path="/var/lib/mysql/mysql.sock"}, 110) = 0
+fcntl(10, F_SETFL, O_RDONLY)            = 0
+setsockopt(10, SOL_IP, IP_TOS, [8], 4)  = -1 EOPNOTSUPP (Operation not supported)
+setsockopt(10, SOL_SOCKET, SO_KEEPALIVE, [1], 4) = 0
+recvfrom(10, "Y\0\0\0\n5.5.5-10.4.21-MariaDB\0\33\0\0\0="..., 16384, MSG_DONTWAIT, NULL, NULL) = 93
+sendto(10, "\302\0\0\1\214\242\276\0\0\0\0@\10\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 198, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 198
+recvfrom(10, "\20\0\0\2\0\0\0\2@\0\0\0\7\1\5\4chat", 16384, MSG_DONTWAIT, NULL, NULL) = 20
+setsockopt(10, SOL_SOCKET, SO_RCVTIMEO, "\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 16) = 0
+setsockopt(10, SOL_SOCKET, SO_SNDTIMEO, "\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 16) = 0
+brk(NULL)                               = 0x23c0000
+brk(0x23e2000)                          = 0x23e2000
+socket(AF_UNIX, SOCK_STREAM, 0)         = 11
+fcntl(11, F_SETFL, O_RDONLY|O_NONBLOCK) = 0
+connect(11, {sa_family=AF_UNIX, sun_path="/var/lib/mysql/mysql.sock"}, 110) = 0
+fcntl(11, F_SETFL, O_RDONLY)            = 0
+setsockopt(11, SOL_IP, IP_TOS, [8], 4)  = -1 EOPNOTSUPP (Operation not supported)
+setsockopt(11, SOL_SOCKET, SO_KEEPALIVE, [1], 4) = 0
+recvfrom(11, "Y\0\0\0\n5.5.5-10.4.21-MariaDB\0\34\0\0\0-"..., 16384, MSG_DONTWAIT, NULL, NULL) = 93
+sendto(11, "\302\0\0\1\214\242\276\0\0\0\0@\10\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 198, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 198
+recvfrom(11, "\20\0\0\2\0\0\0\2@\0\0\0\7\1\5\4chat", 16384, MSG_DONTWAIT, NULL, NULL) = 20
+setsockopt(11, SOL_SOCKET, SO_RCVTIMEO, "\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 16) = 0
+setsockopt(11, SOL_SOCKET, SO_SNDTIMEO, "\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 16) = 0
+socket(AF_UNIX, SOCK_STREAM, 0)         = 12
+fcntl(12, F_SETFL, O_RDONLY|O_NONBLOCK) = 0
+connect(12, {sa_family=AF_UNIX, sun_path="/var/lib/mysql/mysql.sock"}, 110) = 0
+fcntl(12, F_SETFL, O_RDONLY)            = 0
+setsockopt(12, SOL_IP, IP_TOS, [8], 4)  = -1 EOPNOTSUPP (Operation not supported)
+setsockopt(12, SOL_SOCKET, SO_KEEPALIVE, [1], 4) = 0
+recvfrom(12, "Y\0\0\0\n5.5.5-10.4.21-MariaDB\0\35\0\0\0a"..., 16384, MSG_DONTWAIT, NULL, NULL) = 93
+sendto(12, "\302\0\0\1\214\242\276\0\0\0\0@\10\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 198, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 198
+recvfrom(12, "\20\0\0\2\0\0\0\2@\0\0\0\7\1\5\4chat", 16384, MSG_DONTWAIT, NULL, NULL) = 20
+setsockopt(12, SOL_SOCKET, SO_RCVTIMEO, "\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 16) = 0
+setsockopt(12, SOL_SOCKET, SO_SNDTIMEO, "\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 16) = 0
+socket(AF_UNIX, SOCK_STREAM, 0)         = 13
+fcntl(13, F_SETFL, O_RDONLY|O_NONBLOCK) = 0
+connect(13, {sa_family=AF_UNIX, sun_path="/var/lib/mysql/mysql.sock"}, 110) = 0
+fcntl(13, F_SETFL, O_RDONLY)            = 0
+setsockopt(13, SOL_IP, IP_TOS, [8], 4)  = -1 EOPNOTSUPP (Operation not supported)
+setsockopt(13, SOL_SOCKET, SO_KEEPALIVE, [1], 4) = 0
+recvfrom(13, "Y\0\0\0\n5.5.5-10.4.21-MariaDB\0\36\0\0\0m"..., 16384, MSG_DONTWAIT, NULL, NULL) = 93
+sendto(13, "\302\0\0\1\214\242\276\0\0\0\0@\10\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 198, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 198
+recvfrom(13, "\20\0\0\2\0\0\0\2@\0\0\0\7\1\5\4chat", 16384, MSG_DONTWAIT, NULL, NULL) = 20
+setsockopt(13, SOL_SOCKET, SO_RCVTIMEO, "\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 16) = 0
+setsockopt(13, SOL_SOCKET, SO_SNDTIMEO, "\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 16) = 0
+mmap(NULL, 8392704, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0) = 0x7f55af7bb000
+mprotect(0x7f55af7bb000, 4096, PROT_NONE) = 0
+clone(child_stack=0x7f55affbae70, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7f55affbb9d0, tls=0x7f55affbb700, child_tidptr=0x7f55affbb9d0) = 21814
+exit_group(0)                           = ?
++++ exited with 0 +++
